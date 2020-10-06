@@ -17,7 +17,7 @@ public class Jogo {
             plano.draw();
             janela.update();
             if(teclado.keyDown(Keyboard.ENTER_KEY)){
-                JOptionPane.showMessageDialog(null, "Funcionando o ENTER");
+                new Cenario1(janela);
             }
         }
     }
